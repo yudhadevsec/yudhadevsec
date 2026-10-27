@@ -1,69 +1,66 @@
-<!-- SAMBUTAN -->
-```bash
-┌──(yudha㉿kali)-[~]
-└─$ cat profile.txt
+# Yudha Pratama
 
-  Hi, I'm Yudha a Cyber Security Engineering Student who loves Blue 
-  Team SOC Analyst
+I am an undergraduate in Cyber Security Engineering focused on defensive security, Blue Team operations, and detection engineering.
 
-  I build and operate a homelab running Active Directory,
-  Wazuh XDR, ELK Stack, and a full SOAR pipeline —
-  continuously simulating attacks and refining detections.
+Most of my time is spent in my homelab: testing detection logic against real-world attack techniques, parsing system telemetry, and building automated triage workflows.
 
+---
+
+### What I Do
+
+* **Detection Engineering:** Researching threat actor behavior, authoring detection logic (Sigma, YARA), and mapping detections to the MITRE ATT&CK matrix.
+* **Security Operations & Triage:** Analyzing host and network telemetry to investigate anomalous activity and triage security alerts.
+* **Homelab Engineering:** Operating a multi-node Active Directory lab monitored by Wazuh XDR and ELK Stack, integrated with Shuffle SOAR for automated alert enrichment.
+
+---
+
+### Homelab Telemetry Pipeline
+
+```text
+[ Adversary Emulation / Endpoints ]
+                 │
+                 ▼
+  Sysmon + Windows Event Logs + Zeek Network Data
+                 │
+                 ▼
+        [ Wazuh XDR / ELK Stack ]  <──  Custom Sigma Rules
+                 │
+                 ▼
+        [ Shuffle SOAR ]  ──>  Alert Enrichment & Incident Triage
 ```
 
 ---
 
-<!-- STACK -->
+### Security Stack
 
-### SOC & Security Stack
-
-<div align="center">
-
-  <!-- Languages & Scripting -->
-  <img src="https://skillicons.dev/icons?i=python,bash,powershell&theme=dark" />
-
-  <br/><br/>
-
-  <!-- SIEM / Monitoring -->
-  <img src="https://img.shields.io/badge/Splunk-0a192f?style=for-the-badge&logo=splunk&logoColor=00b4d8"/>
-  <img src="https://img.shields.io/badge/Elastic_Stack-023e8a?style=for-the-badge&logo=elastic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Wazuh-0a192f?style=for-the-badge&logoColor=00b4d8"/>
-  <img src="https://img.shields.io/badge/Kibana-0077b6?style=for-the-badge&logo=kibana&logoColor=white"/>
-
-  <br/><br/>
-
-  <!-- Network & Packet -->
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Zeek-0a192f?style=for-the-badge&logoColor=00b4d8"/>
-  <img src="https://img.shields.io/badge/Suricata-EE5022?style=for-the-badge"/>
-
-  <br/><br/>
-
-  <!-- SOAR / Threat Intel -->
-  <img src="https://img.shields.io/badge/TheHive-F5A623?style=for-the-badge&logoColor=0a192f"/>
-  <img src="https://img.shields.io/badge/MISP-023e8a?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCTI-0a192f?style=for-the-badge&logoColor=00b4d8"/>
-  <img src="https://img.shields.io/badge/Shuffle_SOAR-00b4d8?style=for-the-badge&logoColor=0a192f"/>
-
-  <br/><br/>
-
-  <!-- DFIR / Offensive Awareness -->
-  <img src="https://img.shields.io/badge/Volatility3-0a192f?style=for-the-badge&logoColor=00b4d8"/>
-  <img src="https://img.shields.io/badge/Autopsy-023e8a?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-
-  <br/><br/>
-
-  <!-- Rules & Detection -->
-  <img src="https://img.shields.io/badge/YARA_Rules-023e8a?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Sigma_Rules-00b4d8?style=for-the-badge&logoColor=0a192f"/>
-  <img src="https://img.shields.io/badge/Sysmon-0a192f?style=for-the-badge&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CyberChef-0a9396?style=for-the-badge&logoColor=white"/>
-
-</div>
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **SIEM & Log Analytics** | Wazuh XDR, Elastic Stack (ELK), Splunk, Kibana |
+| **Network Visibility** | Zeek, Suricata, Wireshark, Cisco |
+| **Detection & Telemetry** | Sysmon, Sigma Rules, YARA, MITRE ATT&CK |
+| **DFIR & Triage** | Volatility 3, Autopsy, CyberChef |
+| **SOAR & Threat Intel** | Shuffle SOAR, TheHive, MISP, OpenCTI |
+| **Scripting & Automation** | Python, Bash, PowerShell |
 
 ---
 
+### Active Focus & Hands-on Practice
+
+* **Platforms:** Active on [LetsDefend](https://letsdefend.io) and [TryHackMe](https://tryhackme.com) (Sherlocks / SOC Analyst Path) investigating alert scenarios, memory artifacts, and PCAP files.
+* **Current Lab Milestone:** Writing custom Sigma detections for Active Directory persistence techniques and tuning Wazuh alert rules to minimize false positives.
+
+---
+
+### Featured Repositories
+
+* **[homelab-soc-infrastructure](https://github.com/yudhadevsec)**: Architecture documentation and setup notes for my Active Directory, Wazuh, and ELK pipeline.
+* **[detection-rules](https://github.com/yudhadevsec)**: Curated repository of custom Sigma and YARA rules tested against simulated lab attacks.
+* **[incident-investigations](https://github.com/yudhadevsec)**: Case studies and walkthroughs of alert investigations, packet captures, and memory analysis.
+
+---
+
+### Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/yudhadevsec)
+[![Email](https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white)](mailto:yudhadevsec@gmail.com)
