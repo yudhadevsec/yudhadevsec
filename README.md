@@ -46,21 +46,21 @@ Most of my time is spent in my homelab: testing detection logic against real-wor
 
 ### Active Focus & Hands-on Practice
 
-* **Platforms:** Active on [LetsDefend](https://letsdefend.io) and [TryHackMe](https://tryhackme.com) (Sherlocks / SOC Analyst Path) investigating alert scenarios, memory artifacts, and PCAP files.
+* **Platforms:** Active on [LetsDefend](https://letsdefend.io) and [TryHackMe](https://tryhackme.com/p/yudhadevsec) (Sherlocks / SOC Analyst Path) investigating alert scenarios, memory artifacts, and PCAP files.
 * **Current Lab Milestone:** Writing custom Sigma detections for Active Directory persistence techniques and tuning Wazuh alert rules to minimize false positives.
 
 ---
 
-### Featured Repositories
+### Featured Projects
 
-* **[homelab-soc-infrastructure](https://github.com/yudhadevsec)**: Architecture documentation and setup notes for my Active Directory, Wazuh, and ELK pipeline.
-* **[detection-rules](https://github.com/yudhadevsec)**: Curated repository of custom Sigma and YARA rules tested against simulated lab attacks.
-* **[incident-investigations](https://github.com/yudhadevsec)**: Case studies and walkthroughs of alert investigations, packet captures, and memory analysis.
+* **[Block-SOAR](https://github.com/yudhadevsec/Block-SOAR)**: Simple and scalable Security Orchestration, Automation, and Response framework featuring custom Windows endpoint response agents and centralized triage.
+* **[SHAYK-AES-DES-CFB](https://github.com/yudhadevsec/SHAYK-AES-DES-CFB)**: Cryptographic implementation program demonstrating AES and DES encryption using Cipher Feedback (CFB) mode.
 
 ---
 
 ### Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![Website](https://img.shields.io/badge/Website-yudhadevsec.my.id-0a192f?style=flat-square&logo=googlechrome&logoColor=00b4d8)](https://yudhadevsec.my.id)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yudhadevsec)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/yudhadevsec)
-[![Email](https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white)](mailto:yudhadevsec@gmail.com)
+[![Email](https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white)](mailto:yudha.devsec@gmail.com)
