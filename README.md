@@ -61,6 +61,7 @@ Most of my time is spent in my homelab: testing detection logic against real-wor
 ### Connect
 
 [![Website](https://img.shields.io/badge/Website-yudhadevsec.my.id-0a192f?style=flat-square&logo=googlechrome&logoColor=00b4d8)](https://yudhadevsec.my.id)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yudhadevsec)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@yudhadevsec)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yudhadev-sec)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/yudhadevsec)
 [![Email](https://img.shields.io/badge/Email-181717?style=flat-square&logo=gmail&logoColor=white)](mailto:yudha.devsec@gmail.com)
